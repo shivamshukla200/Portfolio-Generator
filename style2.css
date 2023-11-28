@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.input-fields{
+    margin: 2px auto;
+    max-width: 500px;
+    
+}
+
+.input-fields input,textarea{
+    width: 100%;
+    height: 40px;
+    margin: 2px;
+}
+
+input:focus,textarea:focus {
+    outline: none;
+    /* border:2px solid rgb(68, 218, 255); */
+    border-radius: 10px;
+
+}
+
+.hero{
+    background-color: rgb(85, 85, 85);
+    text-align: center;
+    padding: 10px;
+    color:white
+}
+
+.mainj{
+    display: flex;
+    background-image: url(input\ background3.avif);
+    background-size: cover;
+    justify-content: space-around;
+    padding: 10px;
+    
+    /* o */
+}
+
+.mainj h2{
+    border-bottom: 2px solid rgb(170, 24, 24);
+    width: max-content;
+    color:white 
+}
+.btn{
+    text-align: center;
+    margin: 2px;
+}
+button{
+    width: 150px;
+    background-color: rgb(6, 66, 82);
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+}
+.mainj{
+    background-image: url(input\ background2.avif);
+}
+.mainj p{
+  color: white ;
+  /* border-radius: 5px; */
+}
+.mainj h1{
+    color: aliceblue;
+}
